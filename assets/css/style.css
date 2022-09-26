@@ -26,6 +26,7 @@ body{
 .container{
     width: 90%;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .btn{
@@ -42,7 +43,6 @@ body{
     padding: 10px;
     width: 40px;
     height: 40px;
-
     border-radius: 50%;
 }
 
@@ -117,6 +117,7 @@ header nav .burger-menu{
 
 section.planning{
     background-color: #9792E4;
+    
 }
 .strategic-planning{
     display: flex;
@@ -140,6 +141,7 @@ section.planning{
     text-align: center;
     line-height: 25px;
     padding: 10px;
+    margin-bottom: 50px;
     border-radius: 15px 15px 15px 15px;
     background-color: white;
 }
@@ -149,6 +151,54 @@ section.planning{
     font-style: italic;
 }
 
+
+/* ********** TESTIMONIALS SECTION ************/
+
+section.testimonials .col{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.testimonials-cont{
+    padding: 10px;
+    text-align: center;
+}
+.testimonials-cont h2{
+    margin-top: 20px;
+    font-size: 2.2rem;
+    color: #9792E4;
+}
+.testimonials-cont p{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+
+
+.testimonials .col .testimonials-tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #9792E4;
+}
+.testimonials .col .testimonials-tab img{
+    border-radius: 60%;
+    width: 100%;
+}
+
+.testimonials .col .testimonials-tab p{
+    line-height: 30px;
+}
+
+blockquote::before{
+    font-family: Georgia, serif;
+    font-size: 4rem;
+    content: '\201c';
+}
 @media screen and (max-width: 480px){
 
     header ul{
