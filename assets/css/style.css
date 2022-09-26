@@ -31,7 +31,7 @@ body{
 
 .btn{
     padding: 5px 25px;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 30px 30px 30px 30px;
 }
 
 .btn.blue{
@@ -48,6 +48,13 @@ body{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+.btn.white.big{
+    color: #9792E4;
+    font-weight: 600;
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px 70px;
 }
 
 /***********HEADER*********/
@@ -70,9 +77,10 @@ header nav .burger-menu{
 }
 
 /*********** MAIN **********/
-/* .row {
-    width: 100%;
-} */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
 .col{
     display: flex;
     padding: 10px;
@@ -255,6 +263,9 @@ padding: 40px 0;
 }
 
 /* ********* ABOUT US SECTION ********* */
+section.about.about-us{
+padding: 40px 0px;
+}
 .about-us .container{
     width: 90%;
     margin: 0 auto;
@@ -279,10 +290,35 @@ padding: 40px 0;
     border-radius: 50%;
 }
 .about-us h3{
-    margin-top: 20px;
+    margin: 25px 0px;
     font-size: 1.9rem;
     color: #9792E4;
 }
+
+/* ********* GET STARTED SECTION ********* */
+
+section.get-started{
+    padding: 40px 0px;
+    background-color: #9792E4;
+    color: white;
+}
+section.get-started .container{
+    width: 70%;
+    margin: 0 auto;
+}
+.get-started span{
+    margin-bottom: 40px;
+}
+.get-started h3{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+.get-started h2{
+    color: #FDC15F;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
 @media screen and (max-width: 480px){
 
     header ul{
@@ -315,4 +351,15 @@ padding: 40px 0;
         display: flex;
         flex-direction: column;
     }
+    .get-started .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        padding: 10px 0;
+
+    }
+
 }
