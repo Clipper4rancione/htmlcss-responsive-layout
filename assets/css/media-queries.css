@@ -1,0 +1,49 @@
+@media screen and (max-width: 480px){
+
+    header ul{
+        display: none;
+    }
+    header nav .burger-menu{
+        font-size: 30px;
+    }
+    .col{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tab{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: right;
+    }
+    .strategic-planning{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .app-development{
+
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .benefi-tab{
+        display: flex;
+        flex-direction: column;
+    }
+    .get-started .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        padding: 10px 0;
+
+    }
+
+}
