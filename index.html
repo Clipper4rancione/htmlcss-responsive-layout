@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-queries-mobile.css">
+    <link rel="stylesheet" href="assets/css/media-queries-tablet.css">
     <title>Responsive Layout</title>
 </head>
 <body>
@@ -29,26 +31,28 @@
         <section class="get-demo">
             <div class="container p-10">
                 <div class="row">
-                    <div class="col">
-                        <div class="tab get-demo p-10">
-                                <h2>Get a demo application</h2>
+                        <div class="col big">
+                            <div class="tab bigger p-10">
+                                    <h2>Get a demo application</h2>
 
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eligendi veritatis provident debitis officia, atque non nemo!</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eligendi veritatis provident debitis officia, atque non nemo!</p>
 
-                            <a href="#"><div class="btn blue">App Store</div></a>
+                                <div class="btn blue"><a href="#"><i class="fa-brands fa-apple"></i> App Store</a></div>
 
-                            <div class="demo-img">
-                                <img src="assets/img/phone.png" alt="demo-phone">
+                            
+                                    <img src="assets/img/phone.png" alt="demo-phone">
+                                
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="tab">
+                                <i class="fa-solid fa-file-code"></i>
+                                <h2>Clean code</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, minima. Eius illo quasi accusamus natus debitis! Beatae voluptatem quos rerum!</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="tab">
-                            <i class="fa-solid fa-file-code"></i>
-                            <h2>Clean code</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, minima. Eius illo quasi accusamus natus debitis! Beatae voluptatem quos rerum!</p>
-                        </div>
-                    </div>
+                <div class="row">
                     <div class="col">
                         <div class="tab">
                             <i class="fa-solid fa-compass-drafting"></i>
@@ -76,7 +80,7 @@
 
         <section class="planning">
             <div class="container">
-                <div class="col">
+                <div class="planning-box">
                     <div class="strategic-planning">
                         <img src="assets/img/planning1.png" alt="Planning">
                         <h2>Strategic Planning</h2>
