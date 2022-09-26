@@ -2,11 +2,12 @@
     header ul{
         display: none;
     }
-    .col{
+    section.get-demo .col{
     
         width: calc(100% / 3);
+
     }
-    .col.big{
+    .get-demo .col.big{
         width: 66%;
     }
     .tab{
@@ -25,5 +26,30 @@
     display: flex;
     flex-direction: column;
     }
+    
+    section.testimonials .col .testimonials-tab{
+        display: flex;
+        flex-direction: row;
+    }
+    section.testimonials .col{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
 
+    section.benefits .col{
+        width: calc(100% / 2);
+    }
+
+    section.about-us .row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    section.about-us .col{
+        margin: 0;
+        align-items: center;
+        width: calc(100% / 2);
+    }
 }

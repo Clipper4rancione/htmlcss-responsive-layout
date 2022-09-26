@@ -33,6 +33,11 @@
         display: flex;
         flex-direction: column;
     }
+
+    .about-us .row{
+        flex-direction: column;
+        align-items: flex-start;
+    }
     .get-started .container{
         display: flex;
         flex-direction: column;

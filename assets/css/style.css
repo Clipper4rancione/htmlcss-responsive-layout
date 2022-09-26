@@ -27,7 +27,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     padding: 10px;
 }
@@ -217,35 +217,47 @@ section.planning{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     color: white;
     border-radius: 15px 15px 15px 15px;
     background-color: #9792E4;
 }
 .testimonials .col .testimonials-tab img{
-    border-radius: 60%;
-    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
 }
-
-.testimonials .col .testimonials-tab p{
+.testimonials-tab .testimonial-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.testimonials-tab .testimonial-text p{
     line-height: 30px;
-}
+    
 
-blockquote::before{
-    font-family: Georgia, serif;
-    font-size: 4rem;
-    content: '\201c';
 }
+.testimonials-tab .testimonial-text h4{
+    margin-top: 30px;
+}
+/* blockquote::before{
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    content: '\201c';
+} */
 
 /********** BENEFITS SECTION **********/
 
 section.benefits{
-background-color: #9792E4;
-padding: 40px 0;
+    width: 100%;
+    background-color: #9792E4;
+    padding: 40px 0;
 }
-.benefits .container{
-    width: 80%;
-    margin: 0 auto;
+section.benefits .col{
+    padding: 10px;
 }
 .benefits h3{
     color: white;
@@ -291,16 +303,12 @@ section.about.about-us{
     padding: 40px 0px;
 }
 
- .about-us .container{    /* DA MODIFICARE PER VERSIONE DESKTOP */
-    width: 90%;
-    margin: 0 auto;
-}
 .about-us .col{
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
     padding: 20px;
-    width: 90%;
-    margin: 0 auto;
+
 }
 .about-us h2{
     font-size: 2.2rem;
