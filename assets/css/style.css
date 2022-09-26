@@ -30,13 +30,19 @@ body{
 }
 
 .btn{
-    padding: 5px 20px;
-    border-radius: 10px 10px 10px 10px;
+    padding: 5px 25px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .btn.blue{
     background-color: #0084FD;
     color: white;
+}
+.btn.violet{
+    font-size: 1.3rem;
+    color: white;
+    letter-spacing: 5px;
+    background-color: #9792E4;
 }
 .btn-cta{
     background-color: #9792E4;
@@ -116,6 +122,7 @@ header nav .burger-menu{
 /* ***********PLANNING SECTTION *********** */
 
 section.planning{
+    padding: 40px 0;
     background-color: #9792E4;
     
 }
@@ -155,13 +162,14 @@ section.planning{
 /* ********** TESTIMONIALS SECTION ************/
 
 section.testimonials .col{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    padding: 40px 0;
 
 }
 
 .testimonials-cont{
-    padding: 10px;
+    padding: 20px 0;
     text-align: center;
 }
 .testimonials-cont h2{
@@ -199,6 +207,61 @@ blockquote::before{
     font-size: 4rem;
     content: '\201c';
 }
+
+/********** BENEFITS SECTION **********/
+
+section.benefits{
+background-color: #9792E4;
+padding: 40px 0;
+}
+.benefits .container{
+    width: 80%;
+    margin: 0 auto;
+}
+.benefits h3{
+    color: white;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.benefi-tab{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px 15px 15px 15px;
+}
+.benefi-int{
+    display: flex;
+    flex-direction: column;
+}
+.benefi-tab .benefi-int h2{
+    color: #9792E4;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+.benefi-tab .benefi-int span{
+
+    color: #9792E4;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+.benefi-tab p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+/* ********* ABOUT US SECTION ********* */
+.about-us .container{
+    width: 80%;
+    margin: 0 auto;
+}
+.about-us h2{
+    font-size: 2.2rem;
+    color: #9792E4;
+}
+
 @media screen and (max-width: 480px){
 
     header ul{
@@ -225,5 +288,10 @@ blockquote::before{
 
         width: 90%;
         margin: 0 auto;
+    }
+
+    .benefi-tab{
+        display: flex;
+        flex-direction: column;
     }
 }
