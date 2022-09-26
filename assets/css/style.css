@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+/********** GENERALI ***********/
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* .btn{
+
+} */
+
+/***********HEADER*********/
+header{
+    height: 75px;
+    padding: 10px;
+    background-color: #0084FD;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+@media screen and (max-width: 480px){
+
+    header ul{
+        display: none;
+    }
+
+    header nav .burger-menu{
+        font-size: 30px;
+    }
+    
+}
