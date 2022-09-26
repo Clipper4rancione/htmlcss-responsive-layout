@@ -1,11 +1,9 @@
-@media screen and (max-width: 480px){
+@media screen and (min-width: 480px){
 
     header ul{
         display: none;
     }
-    header nav .burger-menu{
-        font-size: 30px;
-    }
+    
     .col{
         width: 90%;
         margin: 0 auto;
