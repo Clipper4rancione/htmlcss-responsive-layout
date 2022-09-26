@@ -39,9 +39,7 @@ body{
     color: white;
 }
 .btn.violet{
-    font-size: 1.3rem;
     color: white;
-    letter-spacing: 5px;
     background-color: #9792E4;
 }
 .btn-cta{
@@ -232,6 +230,10 @@ padding: 40px 0;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
 }
+.benefi-tab .btn.violet{
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+}
 .benefi-int{
     display: flex;
     flex-direction: column;
@@ -254,14 +256,33 @@ padding: 40px 0;
 
 /* ********* ABOUT US SECTION ********* */
 .about-us .container{
-    width: 80%;
+    width: 90%;
+    margin: 0 auto;
+}
+.about-us .col{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    width: 90%;
     margin: 0 auto;
 }
 .about-us h2{
     font-size: 2.2rem;
     color: #9792E4;
 }
-
+.about-us p{
+    margin-top: 30px;
+    line-height: 30px;
+}
+.about-us img{
+    width: 60%;
+    border-radius: 50%;
+}
+.about-us h3{
+    margin-top: 20px;
+    font-size: 1.9rem;
+    color: #9792E4;
+}
 @media screen and (max-width: 480px){
 
     header ul{
