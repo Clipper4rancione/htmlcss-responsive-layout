@@ -1,0 +1,44 @@
+@media screen and (min-width: 1100px){
+
+    .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    /* ********* HEADER ********* */
+
+    header ul{
+        display: block;
+    }
+    header nav .burger-menu{
+        display: none;
+    }
+    header .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav .container ul {
+        list-style: none;
+        display: flex;
+    }
+    nav .container ul li{
+        font-size: 1.2rem;
+        margin-left: 20px;
+    }
+    nav .container ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .nav-right{
+        display: flex;
+        align-items: center;
+    }
+
+    /* ********* GET DEMO SECTION ********* */
+
+    .tab.bigger{
+        display: flex;
+        flex-direction: row;
+    }
+}

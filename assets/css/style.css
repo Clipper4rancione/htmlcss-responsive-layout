@@ -27,7 +27,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .container{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     padding: 10px;
 }
@@ -42,6 +42,14 @@ body{
 .btn.blue{
     background-color: #0084FD;
     color: white;
+}
+.btn.white{
+    background-color: white;
+    color: black;
+
+    /* MARGIN HEADER */
+    margin-left: 20px;
+    
 }
 .btn.violet{
     color: white;
@@ -80,14 +88,21 @@ header .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+}
+nav .cta-header a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
 }
 
 
 /*********** MAIN **********/
 .row {
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+
 }
 .col{
     width: 100%;
@@ -343,7 +358,7 @@ section.get-started .container{
     text-align: center;
     align-items: center;
     padding: 10px 0;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
 .get-started span{

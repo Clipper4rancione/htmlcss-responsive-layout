@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media-queries-mobile.css">
     <link rel="stylesheet" href="assets/css/media-queries-tablet.css">
+    <link rel="stylesheet" href="assets/css/media-queries-desktop.css">
     <title>Responsive Layout</title>
 </head>
 <body>
@@ -16,12 +17,15 @@
         <nav>
             <div class="container">
                     <img src="assets/img/logo.png" alt="logo">
-                <ul>
-                    <li><a href="#">Planning</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">About Us</a></li>
-                </ul>
+                <div class="nav-right">
+                    <ul>
+                        <li><a href="#">Planning</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                    <div class="btn white cta-header"><a href="">Get Started</a></div>
+                </div>
                 <i class="fa-solid fa-bars burger-menu"></i>
             </div>
         </nav>
@@ -29,15 +33,17 @@
 
     <main>
         <section class="get-demo">
-            <div class="container p-10">
+            <div class="container">
                 <div class="row">
                         <div class="col big">
-                            <div class="tab bigger p-10">
+                            <div class="tab bigger">
+                                <div class="text-container">
                                     <h2>Get a demo application</h2>
 
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eligendi veritatis provident debitis officia, atque non nemo!</p>
 
-                                <div class="btn blue"><a href="#"><i class="fa-brands fa-apple"></i> App Store</a></div>
+                                    <div class="btn blue"><a href="#"><i class="fa-brands fa-apple"></i> App Store</a></div>
+                                </div>
 
                             
                                     <img src="assets/img/phone.png" alt="demo-phone">

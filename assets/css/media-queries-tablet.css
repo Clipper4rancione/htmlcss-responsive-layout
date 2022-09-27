@@ -2,6 +2,9 @@
     header ul{
         display: none;
     }
+    nav .cta-header{
+        display: none;
+    }
     section.get-demo .col{
     
         width: calc(100% / 3);
